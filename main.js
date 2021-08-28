@@ -1,5 +1,5 @@
 async function fetchNfts() {
-  return fetch("/nfts.json").then(x => x.json());
+  return fetch("/discreet-gallery/nfts.json").then(x => x.json());
 }
 
 async function main() {
